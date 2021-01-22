@@ -1,0 +1,18 @@
+.siteList {
+  padding-left: 0;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.siteList li {
+  display: inline-block;
+  text-align: center;
+  width: calc(50% - 16px);
+  padding: 4px;
+  margin: 2px;
+  border: 1px solid #ccc;
+}
+.siteList li:nth-child(2n-1) {
+}
