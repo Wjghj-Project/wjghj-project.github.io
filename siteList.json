@@ -1,7 +1,32 @@
 [
   {
-    "zh": "万界规划局",
-    "en": "Wjghj Wiki",
+    "zhName": "小鱼君和他的朋友们",
+    "enName": "Wjghj Wiki",
     "url": "https://www.wjghj.cn/wiki/"
-  }
+  },
+  {
+    "zhName": "小鱼君的博客",
+    "enName": "Dragon Fish's Blog",
+    "url": "https://blog.wjghj.cn"
+  },
+  {
+    "zhName": "万界规划局书库",
+    "enName": "Wjghj Books Center",
+    "url": "https://book.wjghj.cn"
+  },
+  {
+    "zhName": "万界规划局 API",
+    "enName": "Wjghj Project API",
+    "url": "https://api.wjghj.cn"
+  },
+  {
+    "zhName": "万界规划局共享资源库",
+    "enName": "Wjghj Project Static Database",
+    "url": "https://common.wjghj.cn/wiki/"
+  },
+  {
+    "zhName": "万界规划局文档中心",
+    "enName": "Wjghj Project Documentation Center",
+    "url": "https://doc.wjghj.cn"
+  },
 ]
