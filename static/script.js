@@ -14,13 +14,14 @@
   <div class="title">${zhName}</div>
   <div class="sub-title">${enName}</div>
 </a>`
-        ul.insertAdjacentElement('afterbegin', li)
+        ul.insertAdjacentElement('beforeend', li)
       }
 
       data.forEach(addSite)
 
-      document
+      let container = document
         .getElementById('siteListContainer')
-        .insertAdjacentElement('beforeend', ul)
+      container.innerHTML = ''
+      container.insertAdjacentElement('beforeend', ul)
     })
 })()
