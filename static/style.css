@@ -6,6 +6,9 @@
   justify-content: center;
   align-items: center;
 }
+.siteList a {
+  color: unset;
+}
 .siteList li {
   display: inline-block;
   text-align: center;
@@ -14,5 +17,38 @@
   margin: 2px;
   border: 1px solid #ccc;
 }
-.siteList li:nth-child(2n-1) {
+.siteList li * {
+  transition: all .24s;
+}
+.siteList li a {
+  color: #aaa;
+}
+.siteList li .logo {
+  max-width: 50%;
+  height: auto;
+  max-height: 120px;
+}
+.siteList li .title:before {
+  content: "";
+  display: block;
+  position: relative;
+  max-width: 50%;
+  width: 140px;
+  height: 2px;
+  left: 50%;
+  transform: translateX(-50%) rotateY(90deg);
+  background-color: #888;
+  transition: all .4s;
+}
+.siteList li:hover .title:before {
+  transform: translateX(-50%) rotateY(0deg);
+}
+.siteList li:hover {
+  border: 1px solid #aaa;
+}
+.siteList li:hover a {
+  color: #666;
+}
+a:hover {
+  font-weight: inherit;
 }
