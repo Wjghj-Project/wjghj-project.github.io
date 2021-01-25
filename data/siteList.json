@@ -7,17 +7,17 @@
   {
     "zhName": "小鱼君的博客",
     "enName": "Dragon Fish's Blog",
-    "url": "https://blog.wjghj.cn"
+    "url": "https://blog.wjghj.cn/"
   },
   {
     "zhName": "万界规划局书库",
     "enName": "Wjghj Books Center",
-    "url": "https://book.wjghj.cn"
+    "url": "https://book.wjghj.cn/"
   },
   {
     "zhName": "万界规划局 API",
     "enName": "Wjghj Project API",
-    "url": "https://api.wjghj.cn"
+    "url": "https://api.wjghj.cn/"
   },
   {
     "zhName": "万界规划局共享资源库",
@@ -27,6 +27,6 @@
   {
     "zhName": "万界规划局文档中心",
     "enName": "Wjghj Project Documentation Center",
-    "url": "https://doc.wjghj.cn"
+    "url": "https://doc.wjghj.cn/"
   }
 ]

@@ -4,9 +4,13 @@
 
 项目组的重点项目有 **小说《将来过去时》** 及其衍生作品、**网站“小鱼君和他的朋友们”** 以及 **GitHub/Wjghj-Project** 的开源工具。
 
-## 旗下站台
+## 旗下网站
 
 <div id="siteListContainer">加载中…</div>
+
+## 友情链接
+
+<div id="friendListContainer">加载中…</div>
 
 <link href="static/style.css" rel="stylesheet">
 <script src="static/script.js"></script>
