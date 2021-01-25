@@ -1,3 +1,4 @@
+/* 站点列表 */
 .siteList {
   padding-left: 0;
   width: 100%;
@@ -6,9 +7,11 @@
   justify-content: center;
   align-items: center;
 }
+
 .siteList a {
   color: unset;
 }
+
 .siteList li {
   display: inline-block;
   text-align: center;
@@ -17,19 +20,34 @@
   margin: 2px;
   border: 1px solid #ccc;
 }
+
+/* 过渡效果 */
 .siteList li * {
-  transition: all .24s;
+  transition: all 0.24s;
 }
+
 .siteList li a {
   color: #aaa;
 }
+
+.siteList li:hover {
+  border: 1px solid #aaa;
+}
+
+.siteList li:hover a {
+  color: #666;
+}
+
+/* 网站标志 */
 .siteList li .logo {
   max-width: 50%;
   height: auto;
   max-height: 120px;
 }
+
+/* 鼠标放在列表项目上的线动画 */
 .siteList li .title:before {
-  content: "";
+  content: '';
   display: block;
   position: relative;
   max-width: 50%;
@@ -38,17 +56,14 @@
   left: 50%;
   transform: translateX(-50%) rotateY(90deg);
   background-color: #888;
-  transition: all .4s;
+  transition: all 0.4s;
 }
+
 .siteList li:hover .title:before {
   transform: translateX(-50%) rotateY(0deg);
 }
-.siteList li:hover {
-  border: 1px solid #aaa;
-}
-.siteList li:hover a {
-  color: #666;
-}
+
+/* 覆写皮肤样式 */
 a:hover {
   font-weight: inherit;
 }

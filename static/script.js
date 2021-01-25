@@ -4,25 +4,24 @@
       return data.json()
     })
     .then(data => {
-      const list = document.createElement('ul')
-      list.classList.add('siteList')
+      const ul = document.createElement('ul')
+      ul.classList.add('siteList')
 
-      var addSite = ({ zh, en, url, logo }) => {
-        const link = document.createElement('a')
-        link.href = url || '#'
-        link.target = '_blank'
-        link.innerHTML = `
-      <li>
-        <div class="title">${zh}</div>
-      </li>
-      `
-        list.insertAdjacentElement('afterbegin', link)
+      var addSite = ({ zhName, enName, url, logo }) => {
+        let li = document.createElement('li')
+        li.innerHTML = `
+<a href="${url}" target="_blank">
+  <div class="title">${zhName}</div>
+  <div class="sub-title">${enName}</div>
+</a>`
+        ul.insertAdjacentElement('beforeend', li)
       }
 
       data.forEach(addSite)
 
-      document
+      let container = document
         .getElementById('siteListContainer')
-        .insertAdjacentElement('afterbegin', list)
+      container.innerHTML = ''
+      container.insertAdjacentElement('beforeend', ul)
     })
 })()
